@@ -7,7 +7,7 @@ I tested a junior analyst's normal-distribution VaR model against historical dat
 
 ## Methodology
 - Diagnosed the analyst's normal-distribution VaR model by comparing its 99% VaR to historical VaR on the same portfolio.
-- Computed VaR and Expected Shortfall (ES) with three methods: historical, normal, and Student-t (fitted df = [YOUR VALUE]).
+- Computed VaR and Expected Shortfall (ES) with three methods: historical, normal, and Student-t (fitted df = 4.58).
 - Used the `risk_metrics.py` module (`calculate_var`, `calculate_es`, `mc_var`) and ran its self-tests to confirm it behaved correctly.
 - Applied antithetic variates to the Monte Carlo VaR simulation to reduce its standard error.
 - Had an AI write a VaR backtest. I revised my prompt once, then checked the result against my own count of breaches.
